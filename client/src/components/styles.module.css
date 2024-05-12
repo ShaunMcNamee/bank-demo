@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    gap: 16px;
+    color: white;
+    background-color: black;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+.button_link {
+    composes: button;
+    text-decoration: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
