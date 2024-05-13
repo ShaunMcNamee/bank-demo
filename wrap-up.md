@@ -31,7 +31,8 @@ I am not sure I'd say there is anything I was not able to complete - I believe m
   example. I'd love to add that back in.
 - Infrastructure - Node / Express / Sequelize was the fastest I could get going, so I went with that. I would
   investigate if any of these have been replaced with something better (it has been 5 years or so since I needed to set
-  up a node server).
+  up a node server). I also feel like create-react-app is probably not the most up to date, but it worked for what I was
+  doing.
 - Tests - I did not write tests, but with the multi-step checking of many things in the server, those should be broken
   out and tested.
 
